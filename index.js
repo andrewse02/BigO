@@ -38,7 +38,7 @@ function findFourth(numbers) {
   }
 
 // Q: What is the time complexity of of this solution?
-// ANSWER: O(n)
+// ANSWER: O(1)
 
 // Q: Given an array of numbers, what is the space complexity of this function?
 // ANSWER: O(n)
@@ -148,7 +148,7 @@ function removeNum() {
 }
 
 // Q: What is the time complexity of the function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 10) -------------------------------------------------------
@@ -156,7 +156,7 @@ function insertNum() {
     numbers.splice(3, 0, 19)
 }
 // Q: What is the time complexity of the function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 11) -------------------------------------------------------
@@ -200,7 +200,7 @@ function arrInception(parentArr) {
     }
   }
   // Q: What is the space complexity of this function?
-  // ANSWER: O(n^2)
+  // ANSWER: O(nlol je)
   
   
 // 14) You are challenged to find the squared value of each number in an array. This is not the best solution, but it is what you come up with anyway...
@@ -222,7 +222,7 @@ function getNumbersSquared(numbers) {
 
 
 // Q: Is it possible to improve this function's space complexity? If it is, write a new function below.
-// ANSWER:
+// ANSWER: no but here's a little better
 function getNumbersSquared(numbers) {
     let answers = [];
 
